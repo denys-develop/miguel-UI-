@@ -1,0 +1,141 @@
+/* Responsive Hero Page */
+@media (max-width: 428px) {
+    .container {
+        max-width: 428px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .header {
+        padding-bottom: 120px;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-list {
+        position: absolute;
+        top: 65px;
+        right: 0px;
+        width: 100%;
+        /* height: 450px; */
+        height: 100%;
+        padding: 16px;
+        background: #171718;
+        transform: translateX(100%);
+        transition: transform 0.8s; 
+    }
+
+    .header__nav-list.active {
+        transform: translateX(0px);
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        align-items: flex-start;
+    }
+
+    .title__page {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .header__content {
+        margin-top: 72px;
+    }
+
+    .header__btn-row {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .header__content-desc p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .acerca-de-mi {
+        padding-top: 15px;
+        padding-bottom: 64px;
+    }
+
+    .acerca-de-mi__row {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 24px;
+        padding: 16px;
+    }
+
+    .acerca-de-mi__row-text-title {
+        font-size: 24px;
+    }
+    
+    .acerca-de-mi__row-img {
+        width: 100%;
+    }
+
+    .proyectos {
+        padding-top: 15px;
+        padding-bottom: 64px;
+    }
+
+    .proyectos .subtitle__page {
+        margin-bottom: 32px;
+    }
+
+    .subtitle__page {
+        font-size: 24px;
+    }
+
+    .proyectos__block-imege {
+        width: 100%;
+        height: 180px;
+    }
+
+    .proyectos__block-imege img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-arrow-right--proyectos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__row {
+        flex-direction: column;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        row-gap: 32px;
+        margin-top: 32px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+}
+
+/* END */

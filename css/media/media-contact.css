@@ -1,0 +1,28 @@
+@media (max-width: 428px) {
+    .container {
+        max-width: 428px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .header--padding {
+        padding-bottom: 0;
+    }
+
+    .contact {
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* END */

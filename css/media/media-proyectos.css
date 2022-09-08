@@ -1,0 +1,45 @@
+@media (max-width: 428px) {
+    .container {
+        max-width: 428px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+
+    .header--padding {
+        padding-bottom: 0;
+    }
+
+    .project-hero {
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+
+    .project-hero .title__page {
+        margin-bottom: 32px;
+    }
+
+    .project-hero-img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .acerca-project__title {
+        font-size: 24px;
+    }
+
+    .acerca-project, .block__basic {
+        padding: 32px 0;
+    }
+
+    .block__basic-imege  {
+        width: 100%;
+        height: 208px;
+    }
+
+    .block__basic-imege img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* END */

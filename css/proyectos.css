@@ -1,0 +1,99 @@
+/* Header */
+.header--padding {
+    padding-bottom: unset;
+}
+
+.header__nav-list-link--active:after {
+    content: "";
+    display: block;
+    
+    position: absolute;
+    top: 25px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-violet);
+}
+
+/* Project Hero */
+.project-hero {
+    padding: 64px 0;
+}
+
+.project-hero-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.15px;
+    color: var(--color-grey);
+    margin-bottom: 24px;
+}
+
+.project-hero  .title__page {
+    margin-bottom: 64px;
+}
+
+.project-hero-img {
+    width: 100%;
+    height: 534px;
+}
+
+.project-hero-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Acerca del proyecto */
+.acerca-project {
+    padding: 64px 0;
+}
+
+.acerca-project__title {
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.acerca-project__desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.acerca-project__desc p {
+    letter-spacing: 0.44px;
+    line-height: 1.75;
+}
+
+/* Tipografía */
+.block__basic {
+    padding: 64px 0;
+}
+
+.block__basic .subtitle__page {
+    margin-bottom: 18px;
+}
+
+.block__basic-desc {
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+.block__basic-imege {
+    width: 1155px;
+}
+
+.block__basic-imege img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Paleta de colores */
+.block__basic-imege-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+/* END */
